@@ -1,7 +1,7 @@
 /* global fetch */
 import './app.scss'
 
-const query = '/api/push/1.0/custom-form/realtime/push/?pushkey=c96bb9984316e2e56d571b1ad7a6fa24c9f02106ff4095d18839a1ee'
+const query = '/api/push/1.0/custom-form/realtime/push/?pushkey=5f04ae63654fdda6caf0cd67eb8b73103a5e81fda160d61b81e3a622'
 const baseUrl = 'https://eburdet.opendatasoft.com'
 const form = document.querySelector('form')
 const formData = new FormData(form)
