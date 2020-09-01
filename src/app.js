@@ -4,9 +4,9 @@ import './app.scss'
 const query = '/api/push/1.0/realtime/realtime/push/?pushkey=ac39f63cebae37dc5b58221833cdfa840f3842dbccebd45f1bfe29a3'
 const baseUrl = 'https://eburdet.opendatasoft.com'
 const form = document.querySelector('form')
-const formData = new FormData(form)
 
 const postJSONToUrl = (event) => {
+  const formData = new FormData(form)
   event.preventDefault()
   const jsonData = {
     nom: formData.get('nom'),
